@@ -1,0 +1,16 @@
+package:
+  name: helloworld
+  version: "0.1"
+
+source:
+  git_url: git://github.com/stuarteberg/helloworld
+  git_tag: "v0.1"
+
+requirements:
+  build:
+    - python 2.7*
+
+  run:
+    - python 2.7*
+    - pyqt
+    - numpy
